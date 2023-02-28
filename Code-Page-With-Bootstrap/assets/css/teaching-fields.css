@@ -1,0 +1,101 @@
+
+
+.professions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#teaching-fields .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.professions img {
+    max-width: 100px;
+    margin-bottom: 50px;
+}
+
+.header-texts h2 {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.header-texts h3 {
+    font-weight: 300;
+    font-size: 60px;
+    opacity: 0.5;
+}
+
+.about-texts p{
+    margin-top: 50px;
+    width: 50%;
+    font-weight: 300;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.header-texts {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.header-texts::after {
+    content: "";
+    width: 104px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #b813a2;
+}
+
+.design,
+.digial-marketing,
+.programming,
+.syber-security {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    align-items: flex-start;
+    justify-content: space-around;
+    transition: all 0.6s;
+}
+
+.digial-marketing:hover {
+    transform: scale(1.15, 1.1);
+    background-color: #872891;
+    color: white;
+
+}
+
+
+.design:hover {
+    transform: scale(1.15, 1.1);
+    background-color: #FFCD05;
+    color: white;
+
+}
+
+
+
+.syber-security:hover {
+    transform: scale(1.15, 1.1);
+    background-color: #00B45A;
+    color: white;
+
+}
+
+
+
+.programming:hover {
+    transform: scale(1.15, 1.1);
+    background-color: #2382C8;
+    color: white;
+}
+

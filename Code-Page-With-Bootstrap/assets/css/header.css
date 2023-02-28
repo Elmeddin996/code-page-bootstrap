@@ -1,0 +1,65 @@
+.logo-academy img {
+    max-width: 100px;
+
+}
+
+.responsive-navbar {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .responsive-navbar {
+        display: block;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-right-side button,
+    .nav-right-side .search-icon,
+    .menu {
+        display: none;
+    }
+
+    .responsive-navbar img {
+        width: 30px;
+    }
+
+
+
+}
+
+.navbar {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav-right-side {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+
+}
+
+.menu li {
+    display: flex;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #323232;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
